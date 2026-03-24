@@ -1,48 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Personal Website</title>
-    <style>
-        body {
-            font-family: Arial;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .container {
-            background: white;
-            padding: 20px;
-            margin: 50px auto;
-            width: 70%;
-            border-radius: 10px;
-            box-shadow: 0 0 10px gray;
-        }
-        img {
-            width: 150px;
-            border-radius: 50%;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krithika S | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: #f1f5f9;
+}
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+h2 {
+    color: #38bdf8;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+}
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.skills span {
+    display: inline-block;
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+}
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+</style>
 </head>
 <body>
 
+<header>
+    <h1>Krithika S</h1>
+    <p>Data Analyst | Data Analytics & Computational Science | Classical Artist</p>
+</header>
+
 <div class="container">
-    <h1>Hi, I'm Krithika 👋</h1>
-    <img src="https://via.placeholder.com/150" alt="My Photo">
 
+<div class="card">
     <h2>About Me</h2>
-    <p>I am a student interested in Data Science and AI.</p>
-
-    <h2>Education</h2>
-    <p>Bachelor's Degree in Computer Science</p>
-
-    <h2>Hobbies</h2>
-    <p>Reading, Coding, Music</p>
-
-    <h2>Achievements</h2>
-    <p>Completed ML projects and certifications</p>
-
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
+    <p>I am a postgraduate student in Data Analytics and Computational Science at Digital University Kerala, with a strong academic background in Physics from Mar Ivanios College. I am passionate about data analysis, machine learning, and building predictive models to solve real-world problems. I aspire to grow as a Data Analyst and contribute to impactful data-driven solutions. Alongside academics, I am a trained Kuchipudi dancer and a Doordarshan B Grade artist, blending analytical thinking with artistic expression.</p>
 </div>
+
+<div class="card">
+    <h2>Education</h2>
+    <p><b>MSc Data Analytics & Computational Science</b><br>Digital University Kerala</p>
+    <p><b>BSc Physics</b><br>Mar Ivanios College</p>
+</div>
+
+<div class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Python</span>
+        <span>Machine Learning</span>
+        <span>Data Analysis</span>
+        <span>Predictive Analytics</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Data Visualization</span>
+        <span>GitHub</span>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Projects</h2>
+    <p><b>Predictive Analytics Projects</b> - Developed classification models and applied machine learning techniques to analyze and predict outcomes using real-world datasets.</p>
+    <p><b>Data Analysis Projects</b> - Performed data cleaning, visualization, and insights extraction using Python libraries such as Pandas and NumPy.</p>
+    <p><b>Neural Network Study</b> - Explored synchronization and dynamics in small neural network systems.</p>
+</div>
+
+<div class="card">
+    <h2>Achievements</h2>
+    <p>Doordarshan B Grade Artist</p>
+    <p>Kuchipudi Classical Dance Practitioner</p>
+</div>
+
+<div class="card">
+    <h2>Contact</h2>
+    <p>Email: krithikashaju@gmail.com</p>
+    <p>GitHub: <a href="#">Add your GitHub link</a></p>
+</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Krithika S</p>
+</footer>
 
 </body>
 </html>
